@@ -1,12 +1,15 @@
-package br.com.s2.questao9;
+package br.com.s2it.questao9;
 
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
+import br.com.s2it.questao9.BinaryTree;
+import br.com.s2it.questao9.RespostaQuestao9;
+
 /**
- * Testes unitários para classe RespostaQuestao9 usando o conceito BDD
- * @author Vitor.Campos
+ * Teste unitário para classe RespostaQuestao9 usando o conceito BDD
+ * @author Vitor
  * @since 26 fev 2018
  */
 public class RespostaQuestao9Test {
@@ -23,7 +26,7 @@ public class RespostaQuestao9Test {
 	 * 
 	 */
 	@Test
-	public void dadoEstruturaBinaryTree_quandoInvocaCalcularSomaDosNos_EntaoResultadoEsperado() {
+	public void dadoEstruturaExemploDeBinaryTree_quandoInvocaCalcularSomaDosNos_EntaoResultadoEsperado() {
 		BinaryTree raiz = new BinaryTree();
 		raiz.setValor(10);
 		

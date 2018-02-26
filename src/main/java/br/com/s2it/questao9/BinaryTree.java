@@ -1,5 +1,10 @@
-package br.com.s2.questao9;
+package br.com.s2it.questao9;
 
+/**
+ * JavaBean que representa um nó da árvore binária 
+ * @author Vitor
+ * @since 26 fev 2018
+ */
 public class BinaryTree {
 	
 	private int valor;

@@ -1,15 +1,17 @@
-package br.com.s2.questao8;
+package br.com.s2it.questao8;
 
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
+
+import br.com.s2it.questao8.RespostaQuestao8;
 
 /**
  * Testes unitário da classe RespostaQuestao8 usando BDD (dado, quando, entao)
  * @author Vitor Figueiredo
  * @since 26 fev 2018
  */
-class RespostaQuestao8Test {
+public class RespostaQuestao8Test {
 
 	private RespostaQuestao8 respostaQuestao8 = new RespostaQuestao8();
 

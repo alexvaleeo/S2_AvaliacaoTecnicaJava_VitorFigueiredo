@@ -1,13 +1,21 @@
-package br.com.s2.questao8;
+package br.com.s2it.questao8;
 
 public class RespostaQuestao8 {
 	
+	/**
+	 * Cria um inteiro C conforme descrição da Questão 8.
+	 * Utiliza StringBuilder para otimizar a concatençao de strings.
+	 * @param inteiroA
+	 * @param inteiroB
+	 * @return inteiroC
+	 */
 	public int criarInteiroC(int inteiroA, int inteiroB) {
-		//converte inteiro para string 
+		// converte inteiro para string para tornar possivel 
+		// recuperar algorismo em posições específicas
 		String stringA = String.valueOf(inteiroA);
 		String stringB = String.valueOf(inteiroB);
 		
-		//concatena alternadamente 
+		// concatena alternadamente 
 		StringBuilder stringC = new StringBuilder();
 		int i = 0;
 		while (i < stringA.length() && i < stringB.length()) {
@@ -30,7 +38,7 @@ public class RespostaQuestao8 {
 		
 		//converte resultado para inteiro
 		int inteiroC = Integer.parseInt( stringC.toString() );
-		if ( inteiroC > 1000000) {
+		if (inteiroC > 1000000) {
 			return -1;
 		} else {
 			return inteiroC;

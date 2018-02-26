@@ -1,13 +1,13 @@
-package br.com.s2.questao9;
+package br.com.s2it.questao9;
 
 public class RespostaQuestao9 {
 	
 	/**
-	 * Soma os valores dos nós subsequentes do parâmetro 
-	 * (excluindo o valor do nós raiz).
+	 * Soma os valores dos nós subsequentes ao parâmetro raiz,  
+	 * desconsiderando o valor do próprio nó raiz.
 	 * Usa invocações recursivas.
 	 * @param raiz
-	 * @return
+	 * @return soma dos nós 
 	 */
 	public int somarValoresDosNosSubsequentes(BinaryTree raiz) {
 		//condição de saida
