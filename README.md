@@ -1,11 +1,19 @@
 # S2_AvaliacaoTecnicaJava_VitorFigueiredo
-Respostas de Vitor Figueiredo para Avaliacao Tecnica Java para processo seletivo de Desenvolvedor Java Sr na S2 IT
+Projeto com as respostas de Vitor Figueiredo para Avaliacao Tecnica Java para processo seletivo de Desenvolvedor Java Sr na S2 IT
 
 # Características do projeto:
-- Desenvolvido no Eclipse Oxygen.2
+- Desenvolvido na IDE Eclipse Oxygen.2
+- JDK 1.8.162
 - JUnit 4 para testes unitários
 - GRADLE para gerência de build e dependências
 
+# Como clonar o projeto no GitHub:
+Fazer um fork em: vitorfigueiredo/S2_AvaliacaoTecnicaJava_VitorFigueiredo 
+
+
+# Texto com as respostas:
+Estão no formator PDF em:
+/docs/RESPOSTAS - Avaliação Java - Técnica.pdf
 
 # Código com as respostas:
 Existem 2 classes e 2 métodos com as respostas das questões 8 e 9, respectivamente (nota: as classes estão em /src/main/java):
